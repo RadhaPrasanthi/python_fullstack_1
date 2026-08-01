@@ -6,12 +6,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #e98bd7;
+    background-color: #FDF6EC;
     color: #1a161d;
     padding: 20px;
 }
 header{
-    background-color: #d9eab7;
+    background-color:#1C2704E2;
     color: #161313;
     padding:30px;
     text-align:center;
@@ -28,4 +28,12 @@ nav{
     flex-wrap: wrap;
     display: flex;
 
+}
+nav a{
+    color: #6058b9;
+    text-decoration: none;
+    font-weight:bold;
+}
+nav a:hover{
+    text-decoration: underline;
 }
